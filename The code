@@ -1,0 +1,9 @@
+
+
+val = input ('Enter your Username:')
+print (("Hello " + val + " what is the password"))
+while True: 
+    password = input("Password: ")
+    if password == 'Noble' or 'Hello':
+        break 
+        
